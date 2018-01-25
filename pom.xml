@@ -24,8 +24,13 @@
 
 	<repositories>
 		<repository>
-			<id>libs-release-local</id>
-			<url>http://10.211.55.10:8081/artifactory/goodrain/</url>
+			<id>ali-repo</id>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		</repository>
+
+		<repository>
+			<id>goodrain-repo</id>
+			<url>http://10.0.1.11:8081/artifactory/libs-release/</url>
 		</repository>
 	</repositories>
 
