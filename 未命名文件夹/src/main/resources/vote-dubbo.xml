@@ -11,7 +11,7 @@
 
 	<dubbo:application name="demo.vote.web" />
 	<!-- 使用zookeeper注册发布 -->
-	<dubbo:registry address="zookeeper://${ZOOKEEPER_HOST}:2181" />
+	<dubbo:registry address="zookeeper://127.0.0.1:2181" />
 	<dubbo:reference id="voteService"
 		interface="com.goodrain.demo.vote.service.VoteService" />
 	<dubbo:reference id="userService"
